@@ -20,7 +20,10 @@ How do I use it?
  Known Issues:
  - Firefox does not like SVG files to only have viewport declaration. Please add it if you SVG files are not included. 
  example:
+ '''
  <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+ '''
  change to
+ '''
  <svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
- 
+ '''
