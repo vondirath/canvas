@@ -8,7 +8,8 @@ var c,
             island: "island.svg",
             moon: "moon.svg",
             clouds: ["cloud1.svg", "cloud2.svg", "cloud3.svg", "cloud4.svg", "cloud5.svg"],
-            stars: 50,
+            star_count: 100,
+            star_colors: ["#3F9275", "#296B59", "#449170"],
 
 
 
@@ -16,7 +17,7 @@ var c,
         init: function () {
             c = this.settings;
             this.drawBackground();
-            setInterval(this.drawStars(), 33);
+            this.drawStars();
             this.drawImg(c.moon, 300, 70, 500, 500);
             this.drawImg(c.island, 0, 0, c.canvasWidth, c.canvasHeight);
         },
@@ -32,14 +33,16 @@ var c,
 
         drawStars: function () {
             ctx = c.canvas.getContext("2d");
-            var create_particle = function () {
-                // random position
-                this.x = Math.random() * c.canvasWidth;
-                this.y = Math.random() * c.canvasHeight;
-                this.color = c.star_color;
-                this.radius = Math.random() * 2;
-                this.color = "rgba(64,139,132,0.5)"
+            for (var i = 0; i < c.star_count; i++) {
+                var x = Math.random() * c.canvas.offsetWidth,
+                y = Math.random() * c.canvas.offsetHeight,
+                radius = Math.random() * 1.2;
+                ctx.beginPath();
+                ctx.arc(x, y, radius, 0, 360)
+                ctx.fillStyle = islandPainting.getRandom(c.star_colors)
+                ctx.fill();
             };
+            
 
         },
 
@@ -50,6 +53,10 @@ var c,
                 ctx.drawImage(img, x, y, w, h);
             }
             img.src = source;
+        },
+
+        getRandom: function(list) {
+            return list[Math.floor(Math.random() * list.length)];
         },
     };
 
