@@ -2,8 +2,7 @@
 
 var c,
     islandPainting = {
-        // app settings, Not split up at this time but can be by defining 
-        // an additional data structure.
+        // app settings
         settings: {
             canvas: document.getElementById("canvasPaint"),
             canvasWidth: 1000,
