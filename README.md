@@ -18,7 +18,7 @@ How do I use it?
  modified to any valid html rendered color Example: RGB white etc. just fill array with string for css property
  
  Known Issues:
- - Firefox does not like SVG files to only have viewport declaration. Please add it if you SVG files are not included. 
+ - Firefox does not like SVG files to only have viewbox declaration. Please add it if you SVG files are not included. 
  example:
 ```
  <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
