@@ -10,7 +10,7 @@ var c,
             island: "island.svg",
             moon: "moon.svg",
             clouds: ["cloud1.svg", "cloud2.svg", "cloud3.svg", "cloud4.svg", "cloud5.svg"],
-            star_count: 100,
+            star_count: 1000,
             star_colors: ["#3F9275", "#296B59", "#449170"],
             star_radius: 2,
 
@@ -40,12 +40,11 @@ var c,
         drawStars: function () {
             ctx = c.canvas.getContext("2d");
             for (var i = 0; i < c.star_count; i++) {
-                var x = Math.random() * c.canvas.offsetWidth,
-                y = Math.random() * c.canvas.offsetHeight,
+                var x = Math.random() * c.canvasWidth,
+                y = Math.random() * c.canvasHeight,
                 radius = Math.random() * c.star_radius;
                 ctx.beginPath();
                 ctx.arc(x, y, radius, 0, 360)
-                
                 ctx.fillStyle = islandPainting.getRandom(c.star_colors)
                 ctx.fill();
             };
