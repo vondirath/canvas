@@ -1,7 +1,5 @@
-# canvas
-HTML canvas picture
 
-# This is a Javascript Based Canvas.
+# Javascript Based Canvas.
 What do I need to run it?  
 - Any browser!  
 - No special dependencies!
