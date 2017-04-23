@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="pattern-0" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse" viewBox="0 0 100 100">
+      <path d="M 0 0 L 50 0 L 50 100 L 0 100 Z" style="fill: black;"/>
+    </pattern>
+    <radialGradient id="gradient-3" gradientUnits="userSpaceOnUse" cx="322.564" cy="170.102" r="46.183">
+      <stop offset="0" style="stop-color: rgba(35, 118, 94, 1)"/>
+      <stop offset="1" style="stop-color: rgba(12, 39, 31, 1)"/>
+    </radialGradient>
+    <linearGradient id="gradient-4" gradientUnits="userSpaceOnUse" x1="322.564" y1="126.541" x2="322.564" y2="213.663" gradientTransform="matrix(0.996492, -0.083684, 0.075668, 0.901048, -8.44367, 39.514721)">
+      <stop offset="0" style="stop-color: rgba(85, 197, 132, 1)"/>
+      <stop offset="1" style="stop-color: rgba(46, 134, 83, 1)"/>
+    </linearGradient>
+    <radialGradient id="gradient-10" gradientUnits="userSpaceOnUse" cx="98.702" cy="166.633" r="127.098" gradientTransform="matrix(-0.353931, -0.423592, 0.368691, -0.308058, 72.199404, 259.774924)">
+      <stop offset="0" style="stop-color: rgba(85, 197, 132, 1)"/>
+      <stop offset="1" style="stop-color: rgba(46, 134, 83, 1)"/>
+    </radialGradient>
+    <linearGradient id="gradient-12" gradientUnits="userSpaceOnUse" x1="209.518" y1="160.04" x2="209.518" y2="214.93" gradientTransform="matrix(0.987839, 0.155481, -0.110863, 0.704364, 23.333166, -0.475712)">
+      <stop offset="0" style="stop-color: rgba(85, 197, 132, 1)"/>
+      <stop offset="1" style="stop-color: rgba(46, 134, 83, 1)"/>
+    </linearGradient>
+    <linearGradient id="gradient-1" gradientUnits="userSpaceOnUse" x1="308.541" y1="74.474" x2="308.541" y2="242.028" gradientTransform="matrix(-0.089636, -0.995975, 0.357444, -0.032169, 286.024438, 440.022482)">
+      <stop offset="0" style="stop-color: rgba(85, 197, 132, 1)"/>
+      <stop offset="1" style="stop-color: rgba(46, 134, 83, 1)"/>
+    </linearGradient>
+    <radialGradient id="gradient-8" gradientUnits="userSpaceOnUse" cx="83.329" cy="245.162" r="139.335" gradientTransform="matrix(1.62302, 0.434665, -0.258697, 0.965959, 37.271481, -100.639972)">
+      <stop offset="0" style="stop-color: rgba(43, 134, 101, 1)"/>
+      <stop offset="1" style="stop-color: rgba(18, 57, 43, 1)"/>
+    </radialGradient>
+  </defs>
+  <path style="fill: none; stroke: black;"/>
+  <path style="fill: none; stroke: black;"/>
+  <path style="fill: none; stroke: black;"/>
+  <path d="M 92.569 180.954 C 126.895 145.794 353.391 153.57 323.81 214.93" style="stroke: rgb(4, 9, 72); fill: url(#gradient-12);"/>
+  <path d="M 277.365 169.705 C 247.083 169.93 258.18 133.616 269.963 112.506 C 287.475 81.133 329.058 70.369 354.752 92.99 C 387.895 122.17 418.85 151.78 393.782 193.258 C 371.41 230.275 288.753 237.968 321.78 186.529" style="stroke: black; fill: url(#gradient-1);"/>
+  <path d="M 311.023 213.663 C 350.938 219.565 354.855 203.942 363.824 180.484 C 376.713 146.773 364.294 128.835 326.566 126.668 C 303.163 125.324 287.467 134.638 279.477 154.611 C 270.878 176.108 280.192 186.974 307.42 187.211 C 333.835 187.44 347.29 161.913 331.741 153.576 C 328.135 151.643 312.499 150.863 317.769 162.373" style="stroke: url(#gradient-3); fill: url(#gradient-4);"/>
+  <path d="M 315.722 214.119 C 299.347 234.532 195.554 202.406 163.639 215.464 C 160.959 216.56 145.204 230.976 102.403 231.615 C 99.514 231.658 77.573 230.389 50.586 204.697 C 31.87 186.88 32.381 157.493 53.278 150.863" style="stroke: black; fill: url(#gradient-8);"/>
+  <path d="M 315.558 213.643 C 257.868 205.768 203.793 191.603 178.999 193.431 C 147.526 195.751 134.21 226.784 81.819 207.961 C 32.032 190.073 43.414 121.775 106.936 122.828 C 120.859 123.059 137.487 128.73 137.104 159.785 C 136.83 182 108.989 187.243 100.365 183.071 C 91.709 178.884 88.39 158.771 107.609 159.268" style="stroke: rgb(4, 9, 72); fill: url(#gradient-10);"/>
+  <path style="fill: none; stroke: black;"/>
+  <path style="fill: none; stroke: black;"/>
+  <path style="fill: none; stroke: black;"/>
+</svg>

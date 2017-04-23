@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 150 495 145" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="gradient-1" gradientUnits="userSpaceOnUse" cx="59.178" cy="63.059" r="118.141" spreadMethod="reflect" gradientTransform="matrix(0.650637, -0.034035, 0.035337, 0.675479, 48.403146, 179.215946)">
+      <stop offset="0" style="stop-color: rgb(97, 180, 126);"/>
+      <stop offset="1" style="stop-color: rgb(37, 109, 86);"/>
+    </radialGradient>
+    <radialGradient id="gradient-2" gradientUnits="userSpaceOnUse" cx="59.178" cy="63.059" r="118.141" spreadMethod="reflect" gradientTransform="matrix(0.612892, 0.030535, 0.326313, -0.606017, 243.4449, 266.965763)">
+      <stop offset="0" style="stop-color: rgb(97, 180, 126);"/>
+      <stop offset="1" style="stop-color: rgb(37, 109, 86);"/>
+    </radialGradient>
+    <radialGradient id="gradient-3" gradientUnits="userSpaceOnUse" cx="59.178" cy="63.059" r="118.141" spreadMethod="reflect" gradientTransform="matrix(0.364114, 0.02008, 0.193859, -0.39852, 241.182775, 235.526142)">
+      <stop offset="0" style="stop-color: rgb(97, 180, 126);"/>
+      <stop offset="1" style="stop-color: rgb(37, 109, 86);"/>
+    </radialGradient>
+  </defs>
+  <path d="M 375.623 208.844 C 375.623 208.844 425.578 228.491 441.86 227.372 C 468.467 225.543 474.739 209.405 462.088 207.685 C 456.137 206.877 411.364 205.341 409.045 202.724 C 400.489 193.065 360.836 175.045 327.53 174.891 C 288.208 174.708 226.872 193.002 214.399 234.374 C 189.004 318.607 296.382 307.783 327.682 292.902 C 358.982 278.021 423.594 222.567 351.813 198.737 C 323.742 189.418 298.168 206.408 297.143 216.267 C 295.109 235.796 331.447 238.022 320.499 218.843" style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 2; fill: url(#gradient-2); stroke: rgb(24, 65, 60);" transform="matrix(-0.994275, -0.106852, 0.106852, -0.994275, 671.866358, 498.835538)"/>
+  <path d="M 178.198 235.474 C 178.198 235.474 224.72 220.572 241.041 221.818 C 267.709 223.856 266.143 241.844 252.168 243.761 C 245.597 244.662 198.413 246.374 194.701 249.291 C 181.001 260.058 130.886 280.142 96.283 280.315 C 55.425 280.519 21.122 255.885 26.296 223.024 C 43.533 113.542 144.996 162.428 170.728 184.01 C 196.46 205.592 219.702 227.174 133.375 253.736 C 99.616 264.123 81.598 245.186 85.463 234.196 C 93.117 212.43 131.902 209.947 110.964 231.325" style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 2; fill: url(#gradient-1); stroke: rgb(24, 65, 60);"/>
+  <path d="M 319.708 197.305 C 319.708 197.305 349.387 210.223 359.06 209.489 C 366.028 208.96 383.832 204.02 386.406 200.352 C 389.672 195.699 370.422 188.617 370.881 187.212 C 373.171 180.187 348.157 184.264 345.571 183.997 C 333.54 182.758 310.924 175.077 291.137 174.977 C 267.775 174.856 231.337 186.888 223.926 214.093 C 208.84 269.486 272.631 262.367 291.226 252.581 C 309.822 242.798 348.207 206.329 305.563 190.657 C 288.886 184.53 273.692 195.702 273.084 202.187 C 271.876 215.029 293.463 216.492 286.959 203.88" style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 2; fill: url(#gradient-3); stroke: rgb(24, 65, 60);" transform="matrix(-0.994275, -0.106852, 0.106852, -0.994275, 583.473955, 465.559468)"/>
+</svg>
