@@ -14,6 +14,7 @@ var c,
             star_count: 1000,
             star_colors: ["#3F9275", "#296B59", "#449170"],
             star_radius: 2,
+
         },
 
         // kicks off APP by filling in the pieces one by one.
@@ -26,7 +27,7 @@ var c,
             this.drawStars();
             this.drawImg(c.moon, 300, 70, 500, 500);
             this.drawImg(c.island, 0, 0, c.canvasWidth, c.canvasHeight);
-            window.requestAnimationFrame(this.drawClouds);
+            this.drawClouds();
         },
 
         // draws the radiant background
@@ -51,6 +52,7 @@ var c,
             };
         },
 
+ 
         drawClouds: function() {
             max_x = c.canvasWidth;
             max_y = c.canvasHeight;
@@ -62,6 +64,7 @@ var c,
                 islandPainting.drawImg(c.clouds[i], cloudX, cloudY, 100, 50);
             }
         },
+
 
         // draws an image from source at X and Y axis. Width, Height.
         drawImg: function (source, x, y, width, height) {
@@ -76,7 +79,7 @@ var c,
         getRandom: function(list) {
             return list[Math.floor(Math.random() * list.length)];
         },
-
+        
     };
 
 (function () {
