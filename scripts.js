@@ -1,4 +1,5 @@
 /* script */
+
 var c,
     islandPainting = {
 
