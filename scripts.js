@@ -10,6 +10,7 @@ var c,
             island: "island.svg",
             moon: "moon.svg",
             clouds: ["cloud1.svg", "cloud2.svg", "cloud3.svg", "cloud4.svg", "cloud5.svg"],
+            cloud_sets: 3,
             star_count: 1000,
             star_colors: ["#3F9275", "#296B59", "#449170"],
             star_radius: 2,
@@ -55,13 +56,18 @@ var c,
         drawClouds: function() {
             max_x = c.canvasWidth;
             max_y = c.canvasHeight;
-            for (var i = 0; i <c.clouds.length; i++) {
-                cloudX = Math.floor(Math.random() * max_x);
-                // sets clouds to not spawn too low or too high
-                cloudY = Math.floor(Math.random() * (max_y - 300) + 100);
-                // calls drawImg with iterator as source
-                islandPainting.drawImg(c.clouds[i], cloudX, cloudY, 100, 50);
-            }
+            this.cloudIter = 0;
+            // spawns cloud sets by cloud_sets setting value
+            while (this.cloudIter <= c.cloud_sets) {
+                for (var i = 0; i <c.clouds.length; i++) {
+                    cloudX = Math.floor(Math.random() * max_x);
+                    // sets clouds to not spawn too low or too high
+                    cloudY = Math.floor(Math.random() * (max_y - 300) + 100);
+                    // calls drawImg with iterator as source
+                    islandPainting.drawImg(c.clouds[i], cloudX, cloudY, 100, 50);
+                    // adds number to iteration every time for is ran
+                } this.cloudIter +=1;
+            };
         },
 
 
